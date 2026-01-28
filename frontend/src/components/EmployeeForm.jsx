@@ -1,5 +1,5 @@
 import { useState } from "react";
-import api from "../api/api";
+import api from "../api";
 
 export default function EmployeeForm() {
   const [form, setForm] = useState({

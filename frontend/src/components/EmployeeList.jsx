@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import api from "../api/api";
+import api from "../api";
 
 export default function EmployeeList() {
   const [employees, setEmployees] = useState([]);
